@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(46, 47, 79);
+}
+.Output{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Todo-Heading{
+    text-align: center;
+    color: white;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.3cap;
+    text-decoration: underline;
+}
+
+.Btn-Todo{
+    background-color: rgb(53, 72, 194);
+    border: none;
+    height: 2.1rem;
+    width: 6rem;
+    color: white;
+    border-radius: 4px;
+    font-weight: bolder;
+    margin-left: 9px;
+    padding: 3px;
+}
+
+.Input-Todo{
+    border: none;
+    border-bottom: 1px solid rgb(242, 245, 245);
+    background-color: rgb(46, 47, 79);
+    height: 2rem;
+    width: 24rem;
+    color: rgb(241, 245, 248);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.text{
+    color: white;
+}
+
+.Output{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Btn-Delete{
+    background-color: rgb(177, 69, 69);
+    border: none;
+    height: 2.1rem;
+    width: 6rem;
+    color: white;
+    border-radius: 4px;
+    font-weight: bolder;
+    margin-left: 9px;
+    padding: 3px;
+}
+.Btn-up{
+    background-color: rgb(78, 219, 78);
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    color: white;
+    border-radius: 4px;
+    font-weight: bolder;
+    margin-left: 9px;
+    padding: 3px;
+}
+
+.list-items{
+    width: auto;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    list-style: none;
+}
